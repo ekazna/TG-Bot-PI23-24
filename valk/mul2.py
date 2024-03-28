@@ -14,8 +14,8 @@ from aiogram.utils.callback_data import CallbackData
 con = sl.connect('tbot.db')
 
 
-API_TOKEN = '6549227102:AAH8uD9p1-90HJRjuHrExa3EgXx28d8e_do'
-
+API_TOKEN = '' ########################################################
+ 
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
